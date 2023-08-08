@@ -1,0 +1,109 @@
+
+body{
+  background-color: #282c34;
+}
+Table{
+  margin: 10px;
+  border: 1px solid black;
+  height: 60vh;
+  border-collapse: collapse;
+  /* width: 80%; */
+}
+.list{
+  width: 50%;
+  height: 80%;
+  margin-left: 10px;
+}
+td , th{
+  border: 1px solid black;
+  color: white;
+}
+button{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.view{
+  color: blue;
+  border: 1px solid blue;
+}
+.edit{
+  color: rgb(255, 255, 0);
+  border: 1px solid black;
+}
+.delete{
+  color: red;
+  border: 1px solid red;
+}
+h1{
+  color: white;
+  text-align: center;
+  background-color: black;
+  margin: 5px;
+  padding: 10px;
+}
+.part{
+  display: flex;
+}
+.addstudent{
+  width: 50%;
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+input{
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+h2{
+  text-align: center;
+  padding: 10px;
+  margin-left: 16px;
+}
+.addbtn{
+  margin-left: 10px;
+  margin-top: 16px;
+  background-color: blue;
+  color: white;
+  padding:5px;
+  border: 1px solid rgb(21, 0, 255);
+}
+.studlist{
+  margin-top: 38px;
+  margin-left: 10px;
+  color: white;
+}
+.back{
+  margin-top: 10px;
+  margin-left: 25%;
+  color: white;
+  background-color: darkolivegreen;
+  width: 50%;
+  padding: 1%;
+}
+
+
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+  }
+  
+  .list {
+    width: 80%;
+    overflow-x: hidden;
+    margin: auto;
+  }
+
+  .addstudent {
+    width: 80%;
+    margin: auto;
+  }
+  .part{
+    display: block;
+  }
+}
+
+
+
+
+
